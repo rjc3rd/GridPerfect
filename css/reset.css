@@ -1,0 +1,75 @@
+:root {
+  --font-size: 1.2rem;
+  --color: black;
+  --bg-color: white;
+  --border-color: cyan;
+  --border-radius: 1rem;
+  --margin: 1.5rem;
+  --padding: 1.5rem;
+  --gap: 2rem;
+}
+
+/*****************/
+/* Reset Browser */
+/*****************/
+body,
+div,
+footer,
+header,
+html,
+main,
+nav,
+section {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+/***************/
+/* HTML Basics */
+/***************/
+body {
+  font-size: var(--font-size);
+  color: var(--color);
+  background-color: var(--bg-color);
+  border-color: var(--border-color);
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-size: calc(var(--font-size) * 4);
+}
+h2 {
+  font-size: calc(var(--font-size) * 3);
+}
+h3 {
+  font-size: calc(var(--font-size) * 2.5);
+}
+h4 {
+  font-size: calc(var(--font-size) * 2);
+}
+h5 {
+  font-size: calc(var(--font-size) * 1.5);
+}
+h6 {
+  font-size: calc(var(--font-size) * 1.25);
+}
+a {
+  color: var(--color);
+  text-decoration: none;
+}

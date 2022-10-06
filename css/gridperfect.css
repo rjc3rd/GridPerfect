@@ -1,7 +1,7 @@
 :root {
   --font-size: 1.2rem;
-  --color: white;
-  --bg-color: black;
+  --color: black;
+  --bg-color: white;
   --border-color: cyan;
   --border-radius: 1rem;
   --margin: 1.5rem;

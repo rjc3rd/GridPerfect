@@ -1,9 +1,16 @@
-/* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
 function navToggle() {
-    var x = document.getElementById("nav-links");
-    if (x.style.display === "block") {
-      x.style.display = "none";
-    } else {
-      x.style.display = "block";
-    }
-  } 
+  const toggleMenu = document.getElementById("toggleMenu");
+  const toggleContainer = document.getElementById("toggleContainer")
+
+  if (toggleMenu.style.display === "flex") {
+    toggleMenu.style.display = "none";
+  } else {
+    toggleMenu.style.display = "flex";
+  }
+
+  if (toggleContainer.style.flexWrap === "wrap") {
+    toggleContainer.style.flexWrap = "nowrap";
+  } else {
+    toggleContainer.style.flexWrap = "wrap";
+  }
+}

@@ -135,7 +135,7 @@ a {
 .lg-12,
 .lg-auto {
   display: flex;
-  flex: 0 0 auto;
+  flex: 0 1 auto;
   flex-flow: row nowrap;
 }
 @media (min-width: 300px) and (max-width: 549.99px) {
@@ -198,7 +198,7 @@ a {
   }
   .sm-show {
     display: flex;
-    flex: 0 0 auto;
+    flex: 0 1 auto;
     flex-flow: row nowrap;
   }
   .sm-wrap {
@@ -311,7 +311,7 @@ a {
   }
   .md-show {
     display: flex;
-    flex: 0 0 auto;
+    flex: 0 1 auto;
     flex-flow: row nowrap;
   }
   .md-wrap {
@@ -385,7 +385,7 @@ a {
   }
   .lg-show {
     display: flex;
-    flex: 0 0 auto;
+    flex: 0 1 auto;
     flex-flow: row nowrap;
   }
   .lg-wrap {

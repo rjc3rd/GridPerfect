@@ -135,8 +135,6 @@ a {
 .lg-12,
 .lg-auto {
   display: flex;
-  flex: 0 1 auto;
-  flex-flow: row nowrap;
 }
 @media (min-width: 300px) and (max-width: 549.99px) {
   /* Phone - Small Screen Only */
@@ -198,8 +196,6 @@ a {
   }
   .sm-show {
     display: flex;
-    flex: 0 1 auto;
-    flex-flow: row nowrap;
   }
   .sm-wrap {
     flex-wrap: wrap;
@@ -311,8 +307,6 @@ a {
   }
   .md-show {
     display: flex;
-    flex: 0 1 auto;
-    flex-flow: row nowrap;
   }
   .md-wrap {
     flex-wrap: wrap;
@@ -385,8 +379,6 @@ a {
   }
   .lg-show {
     display: flex;
-    flex: 0 1 auto;
-    flex-flow: row nowrap;
   }
   .lg-wrap {
     flex-wrap: wrap;
@@ -409,4 +401,16 @@ a {
   .lg-order-5 {
     order: -5;
   }
+}
+.col {
+  flex-direction: column;
+}
+.col-reverse {
+  flex-direction: column-reverse;
+}
+.row {
+  flex-direction: row;
+}
+.row-reverse {
+  flex-direction: row-reverse;
 }
